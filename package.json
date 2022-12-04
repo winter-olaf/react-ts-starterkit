@@ -1,7 +1,7 @@
 {
-  "name": "bookend",
+  "name": "starter",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "starter.js",
   "license": "MIT",
   "scripts": {
     "dev": "webpack-dev-server --config config/webpack.dev.js",
