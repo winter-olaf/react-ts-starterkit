@@ -1,5 +1,12 @@
+import { globalStyles } from './shared/styles/globalStyle'
+
 const App = () => {
-  return <div>Hello world</div>
+  return (
+    <div>
+      {globalStyles}
+      Hello world
+    </div>
+  )
 }
 
 export default App

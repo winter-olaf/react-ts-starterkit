@@ -1,7 +1,6 @@
 const { merge } = require('webpack-merge')
 const common = require('./webpack.common')
 const path = require('path')
-const Package = require('../package.json')
 
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const TerserPlugin = require('terser-webpack-plugin')
@@ -12,7 +11,7 @@ module.exports = merge(common, {
   devtool: 'cheap-module-source-map',
   output: {
     path: path.resolve(__dirname, '../dist'),
-    filename: `[name].js`,
+    filename: '[name].js',
     publicPath: '/',
     clean: true,
   },

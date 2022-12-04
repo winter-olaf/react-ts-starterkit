@@ -1,1 +1,2 @@
 - React Starter Kit
+- [Emotion 테마 설정](https://velog.io/@yeogenius/React-Emotion.js-%EB%A1%9C-Theme-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0)
